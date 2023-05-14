@@ -1,0 +1,5 @@
+ccxt==1.92.89
+pandas==1.4.3
+regex==2022.3.2
+ta-lib==0.4.24
+requests==2.28.1
