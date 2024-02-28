@@ -7,9 +7,9 @@ import re
 #binance api "qelcTijpKdvgZxhBlObav3kwHGwO3jck6qgvpXnHuQmtrA3Fy1zJkVHMqlvQniYX"
 #binance secret "nx7z2DBSaF2BP53dwg4L93HW7vktnzINiU8vdl3X9OEOkzsL1kdrAGI35H9eVniN"
 
-api = "940aaf92-80da-4ebe-9e91-eab5ad662d43"
-secret = "2933253BAEDD892AEE7A226B61BA7300"
-okx_password = "Behsat075524525."
+api = api
+secret = api secret
+okx_password = api password
 
 binance = ccxt.okx({
     'enableRateLimit': True,
