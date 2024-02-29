@@ -72,7 +72,7 @@ while True:
         #Telegram
 
         if signal.loc[i,"lastsignal"] != signalgecici:
-            requests.post(url="https://api.telegram.org/bot6211346923:AAEIFug7_BiaAspj_UukMpxvzC5WY3mDgd0/sendMessage",data={"chat_id":-615601352,"text":message}).json
+            requests.post(url="https://api.telegram.org/<Bot Key>/sendMessage",data={"chat_id":-615601352,"text":message}).json
             signal.loc[i,"lastsignal"] = signalgecici
         
         print(stochrsif, stochrsis, message)
